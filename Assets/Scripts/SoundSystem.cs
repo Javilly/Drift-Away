@@ -6,14 +6,15 @@ public class SoundSystem : MonoBehaviour
 {
     [SerializeField] AudioClip[] instrumentsArray = new AudioClip[5];
 
-    AudioSource audioSource;
+    AudioSource playerAudioSource;
+    [SerializeField]GameObject player;
 
     public int playerInstrumentId;
     public float playerPitch;
 
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        playerAudioSource = GetComponent<AudioSource>();
     }
 
     public void generateSound(float characterSN, float characterEI)
@@ -42,15 +43,15 @@ public class SoundSystem : MonoBehaviour
         }
 
         characterEI = (characterEI * 0.015f) + 0.5f;
-        audioSource.clip = instrumentsArray[instrumentId];
-        audioSource.pitch = characterEI;
-        audioSource.Play();
+        playerAudioSource.clip = instrumentsArray[instrumentId];
+        playerAudioSource.pitch = characterEI;
+        playerAudioSource.Play();
     }
 
     public void generatePlayerSound()
     {
-        audioSource.clip = instrumentsArray[playerInstrumentId];
-        audioSource.pitch = playerPitch;
-        audioSource.Play();
+        playerAudioSource.clip = instrumentsArray[playerInstrumentId];
+        playerAudioSource.pitch = playerPitch;
+        playerAudioSource.Play();
     }
 }
