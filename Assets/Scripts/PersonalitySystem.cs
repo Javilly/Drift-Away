@@ -7,10 +7,10 @@ public class PersonalitySystem : MonoBehaviour
     [SerializeField] SoundSystem mySoundSystem;
     [SerializeField] MeshSystem myMeshSystem;
 
-    public float introversionExtraversion = 50;
-    public float sensingIntuition = 50;
-    public float thinkingFeeling = 50;
-    public float judgingPerceiving = 50;
+    public float introversionExtraversion;
+    public float sensingIntuition;
+    public float thinkingFeeling;
+    public float judgingPerceiving;
 
     public GameObject playerHead;
     public Material playerHeadMaterial;
@@ -21,7 +21,10 @@ public class PersonalitySystem : MonoBehaviour
 
     void Start()
     {
-
+        introversionExtraversion = Random.Range(40f, 60f);
+        sensingIntuition = Random.Range(40f, 60f);
+        thinkingFeeling = Random.Range(40f, 60f);
+        judgingPerceiving = Random.Range(40f, 60f);
     }
 
 
