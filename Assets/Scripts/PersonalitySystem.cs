@@ -27,6 +27,22 @@ public class PersonalitySystem : MonoBehaviour
         judgingPerceiving = Random.Range(40f, 60f);
     }
 
+    public void IEChange(float value)
+    {
+        introversionExtraversion += value;
+    }
+    public void SNChange(float value)
+    {
+        sensingIntuition += value;
+    }
+    public void TFChange(float value)
+    {
+        thinkingFeeling += value;
+    }
+    public void JPChange(float value)
+    {
+        judgingPerceiving += value;
+    }
 
     void Update()
     {
