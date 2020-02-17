@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class Temple : MonoBehaviour
 {
-    [SerializeField] PersonalitySystem myPersonalitySystem;
+    public PersonalitySystem myPersonalitySystem;
+    public TestSystem myTestSystem;
     [SerializeField] Text templeQuestion;
     [SerializeField] Text firstAnswer;
     [SerializeField] Text secondAnswer;
-    [SerializeField] int templeId;
+    public int templeId;
     [SerializeField] GameObject door;
 
     public string[] questionsArray;
@@ -17,7 +18,6 @@ public class Temple : MonoBehaviour
     public string[] secondAnswerArray;
 
     bool templeStarted = false;
-
     int choice = 0;
 
     public void TempleStarted()
