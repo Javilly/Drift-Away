@@ -202,10 +202,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:23
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -262,15 +267,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 23
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -366,10 +371,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:8
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -426,15 +436,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 8
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -455,10 +465,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:10
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -515,15 +530,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 10
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -619,10 +634,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:16
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -679,15 +699,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 16
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -708,10 +728,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:24
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -768,15 +793,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 24
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -947,10 +972,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:14
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -1007,15 +1037,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 14
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -1111,10 +1141,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:15
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -1171,15 +1206,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 15
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -1238,7 +1273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &633564354
 Transform:
   m_ObjectHideFlags: 0
@@ -1583,7 +1618,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741226204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30, y: 118.5, z: -30}
+  m_LocalPosition: {x: 30, y: 119.07, z: -30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2035438244}
@@ -1732,6 +1767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPCHouse (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643241029072953549, guid: e0f1ed93638efcc40825496ae87ecf12,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5643241029072953550, guid: e0f1ed93638efcc40825496ae87ecf12,
         type: 3}
@@ -2633,6 +2673,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCHouse (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5643241029072953549, guid: e0f1ed93638efcc40825496ae87ecf12,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5643241029072953550, guid: e0f1ed93638efcc40825496ae87ecf12,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3453,10 +3498,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:7
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -3513,15 +3563,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 7
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -3542,10 +3592,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:3
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -3602,15 +3657,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 3
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -3631,10 +3686,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:21
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -3691,15 +3751,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 21
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -3846,10 +3906,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:2
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -3906,15 +3971,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 2
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -3935,10 +4000,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:17
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -3995,15 +4065,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 17
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -4028,6 +4098,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPCHouse (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643241029072953549, guid: e0f1ed93638efcc40825496ae87ecf12,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5643241029072953550, guid: e0f1ed93638efcc40825496ae87ecf12,
         type: 3}
@@ -4243,10 +4318,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:22
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -4303,15 +4383,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 22
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -4332,10 +4412,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:1
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -4392,15 +4477,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 1
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -4421,10 +4506,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:9
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: templeId
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -4481,15 +4571,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+      propertyPath: m_Name
+      value: Temple Id:9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: templeId
-      value: 9
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
@@ -4590,6 +4680,7 @@ GameObject:
   - component: {fileID: 2035438243}
   - component: {fileID: 2035438242}
   - component: {fileID: 2035438241}
+  - component: {fileID: 2035438245}
   m_Layer: 0
   m_Name: PlayerHead
   m_TagString: Untagged
@@ -4670,6 +4761,18 @@ Transform:
   m_Father: {fileID: 741226208}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2035438245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035438240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4676eb5ca82844130bd789a5f334d839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2107692381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4681,6 +4784,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPCHouse (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643241029072953549, guid: e0f1ed93638efcc40825496ae87ecf12,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5643241029072953550, guid: e0f1ed93638efcc40825496ae87ecf12,
         type: 3}
@@ -4821,11 +4929,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: m_Name
-      value: Temple Id:0
-      objectReference: {fileID: 0}
+      propertyPath: myPersonalitySystem
+      value: 
+      objectReference: {fileID: 1675042930}
     - target: {fileID: 7721189308435677216, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4881,11 +4989,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3228149309267221323, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
-      propertyPath: myPersonalitySystem
-      value: 
-      objectReference: {fileID: 1675042930}
+      propertyPath: m_Name
+      value: Temple Id:0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721189308435677217, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7855968253755653591, guid: 9ca1139310c61fa4bb8dcab8e2a30d82,
         type: 3}
       propertyPath: player
@@ -4909,6 +5022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPCHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643241029072953549, guid: e0f1ed93638efcc40825496ae87ecf12,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5643241029072953550, guid: e0f1ed93638efcc40825496ae87ecf12,
         type: 3}

@@ -30,7 +30,8 @@ public class Player : MonoBehaviour
         GetImput(ref inputAxisX, ref inputAxisY, ref inputAxisZ);
         Move();
         ResetJumpCount();
-        if (Input.GetKeyDown(KeyCode.F))
+
+        if (Input.GetKey(KeyCode.F))
         {
             print("Generando sonido del player");
             mySoundSystem.generatePlayerSound();
