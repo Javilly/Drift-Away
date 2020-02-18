@@ -10,7 +10,7 @@ public class Temple : MonoBehaviour
     [SerializeField] Text templeQuestionUI;
     [SerializeField] Text firstAnswerUI;
     [SerializeField] Text secondAnswerUI;
-    public int templeId;
+    public int templeQuestionAnswerId;
     [SerializeField] GameObject door;
 
 
@@ -18,9 +18,9 @@ public class Temple : MonoBehaviour
     public string templeFirstAnswer;
     public string templeSecondAnswer;
 
-    public string[] questionsArray;
-    public string[] firstAnswersArray;
-    public string[] secondAnswerArray;
+    // public string[] questionsArray;
+    // public string[] firstAnswersArray;
+    // public string[] secondAnswerArray;
 
     bool templeStarted = false;
     int choice = 0;
@@ -41,7 +41,6 @@ public class Temple : MonoBehaviour
     {
         choice = 2;
         EndTemple();
-
     }
 
     public void CloseDoor()
@@ -53,67 +52,70 @@ public class Temple : MonoBehaviour
     {
         door.SetActive(false);
         float value = 5f;
-        if(templeId == 0 || templeId == 7 || templeId == 14 || templeId == 21)
-        {
-            if(choice == 1)
-            {
-                myPersonalitySystem.IEChange(value);
-            }
-            else if(choice == 2)
-            {
-                myPersonalitySystem.IEChange(-value);
-            }
+        string response;
+        if(choice == 1){
+            response = 'a'.ToString();
+            templeQuestionUI.text = templeFirstAnswer;
+        }else{
+            response = 'b'.ToString();
+            templeQuestionUI.text = templeSecondAnswer;
         }
-        else if (templeId == 1 || templeId == 8 || templeId == 15 || templeId == 22)
-        {
-            if (choice == 1)
-            {
-                myPersonalitySystem.SNChange(value);
-            }
-            else if (choice == 2)
-            {
-                myPersonalitySystem.SNChange(-value);
-            }
-        }
-        else if (templeId == 2 || templeId == 9 || templeId == 16 || templeId == 23)
-        {
-            if (choice == 1)
-            {
-                myPersonalitySystem.TFChange(value);
-            }
-            else if (choice == 2)
-            {
-                myPersonalitySystem.TFChange(-value);
-            }
-        }
-        else if (templeId == 3 || templeId == 10 || templeId == 17 || templeId == 24)
-        {
-            if (choice == 1)
-            {
-                myPersonalitySystem.JPChange(value);
-            }
-            else if (choice == 2)
-            {
-                myPersonalitySystem.JPChange(-value);
-            }
-        }
+        myTestSystem.addAnswer(templeQuestionAnswerId, response);
 
-        templeQuestionUI.text = "This temple is now sealed by your decisions";
+        // templeQuestionUI.text = "This temple is now sealed by your decisions";
         firstAnswerUI.text = "";
         secondAnswerUI.text = "";
+
+        // if(templeQuestionAnswerId == 0 || templeQuestionAnswerId == 7 || templeQuestionAnswerId == 14 || templeQuestionAnswerId == 21)
+        // {
+        //     if(choice == 1)
+        //     {
+        //         myPersonalitySystem.IEChange(value);
+        //     }
+        //     else if(choice == 2)
+        //     {
+        //         myPersonalitySystem.IEChange(-value);
+        //     }
+        // }
+        // else if (templeQuestionAnswerId == 1 || templeQuestionAnswerId == 8 || templeQuestionAnswerId == 15 || templeQuestionAnswerId == 22)
+        // {
+        //     if (choice == 1)
+        //     {
+        //         myPersonalitySystem.SNChange(value);
+        //     }
+        //     else if (choice == 2)
+        //     {
+        //         myPersonalitySystem.SNChange(-value);
+        //     }
+        // }
+        // else if (templeQuestionAnswerId == 2 || templeQuestionAnswerId == 9 || templeQuestionAnswerId == 16 || templeQuestionAnswerId == 23)
+        // {
+        //     if (choice == 1)
+        //     {
+        //         myPersonalitySystem.TFChange(value);
+        //     }
+        //     else if (choice == 2)
+        //     {
+        //         myPersonalitySystem.TFChange(-value);
+        //     }
+        // }
+        // else if (templeQuestionAnswerId == 3 || templeQuestionAnswerId == 10 || templeQuestionAnswerId == 17 || templeQuestionAnswerId == 24)
+        // {
+        //     if (choice == 1)
+        //     {
+        //         myPersonalitySystem.JPChange(value);
+        //     }
+        //     else if (choice == 2)
+        //     {
+        //         myPersonalitySystem.JPChange(-value);
+        //     }
+        // }
     }
 
     void Start()
     {
-        templeQuestionUI.text = questionsArray[templeId];
-        firstAnswerUI.text = firstAnswersArray[templeId];
-        secondAnswerUI.text = secondAnswerArray[templeId];
-    }
-
-
-
-    void Update()
-    {
-        
+        templeQuestionUI.text = templeQuestion;
+        firstAnswerUI.text = templeFirstAnswer;
+        secondAnswerUI.text = templeSecondAnswer;
     }
 }
