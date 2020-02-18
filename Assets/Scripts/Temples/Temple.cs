@@ -7,11 +7,16 @@ public class Temple : MonoBehaviour
 {
     public PersonalitySystem myPersonalitySystem;
     public TestSystem myTestSystem;
-    [SerializeField] Text templeQuestion;
-    [SerializeField] Text firstAnswer;
-    [SerializeField] Text secondAnswer;
+    [SerializeField] Text templeQuestionUI;
+    [SerializeField] Text firstAnswerUI;
+    [SerializeField] Text secondAnswerUI;
     public int templeId;
     [SerializeField] GameObject door;
+
+
+    public string templeQuestion;
+    public string templeFirstAnswer;
+    public string templeSecondAnswer;
 
     public string[] questionsArray;
     public string[] firstAnswersArray;
@@ -93,16 +98,16 @@ public class Temple : MonoBehaviour
             }
         }
 
-        templeQuestion.text = "This temple is now sealed by your decisions";
-        firstAnswer.text = "";
-        secondAnswer.text = "";
+        templeQuestionUI.text = "This temple is now sealed by your decisions";
+        firstAnswerUI.text = "";
+        secondAnswerUI.text = "";
     }
 
     void Start()
     {
-        templeQuestion.text = questionsArray[templeId];
-        firstAnswer.text = firstAnswersArray[templeId];
-        secondAnswer.text = secondAnswerArray[templeId];
+        templeQuestionUI.text = questionsArray[templeId];
+        firstAnswerUI.text = firstAnswersArray[templeId];
+        secondAnswerUI.text = secondAnswerArray[templeId];
     }
 
 
