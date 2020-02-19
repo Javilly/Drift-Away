@@ -18,11 +18,17 @@ public class TestSystem : MonoBehaviour
     int judgingPoints;
     int perceivingPoints;
 
+    int questionsAnswered;
+
     public PersonalitySystem myPersonalitySystem;
 
     public void addAnswer(int id, string response)
     {
         questions[id] = response;
+        questionsAnswered ++;
+        if(questionsAnswered == 70){
+            // Teleport player to center
+        }
     }
 
     public void calculatePersonality()
