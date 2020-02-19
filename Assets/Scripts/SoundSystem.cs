@@ -50,12 +50,11 @@ public class SoundSystem : MonoBehaviour
 
     public void generatePlayerSound()
     {
-        if(!audplayerAudioSourceio.isPlaying)
-         {
-                     playerAudioSource.clip = instrumentsArray[playerInstrumentId];
-        playerAudioSource.pitch = playerPitch;
-        playerAudioSource.Play();
-         }
-
+        if (!playerAudioSource.isPlaying)
+        {
+            playerAudioSource.clip = instrumentsArray[playerInstrumentId];
+            playerAudioSource.pitch = playerPitch;
+            playerAudioSource.Play();
+        }
     }
 }

@@ -54,10 +54,10 @@ public class Temple : MonoBehaviour
         float value = 5f;
         string response;
         if(choice == 1){
-            response = 'a'.ToString();
+            response = "a";
             templeQuestionUI.text = templeFirstAnswer;
         }else{
-            response = 'b'.ToString();
+            response = "b";
             templeQuestionUI.text = templeSecondAnswer;
         }
         myTestSystem.addAnswer(templeQuestionAnswerId, response);
